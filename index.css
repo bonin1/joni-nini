@@ -26,18 +26,30 @@
     left: 400px;
     top: 150px;
     user-select: none;
-    line-height: 90px;
+    line-height: 70px;
 }
 .title{
     text-transform: uppercase;
     color: #F4CB0E;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.5rem;
     letter-spacing: 1px;
 }
 .second-title{
     color: white;
-    font-size: 60px;
+    font-size: 3rem;
     text-transform: uppercase;
     font-weight: 400;
+}
+.underline{
+    width: 100px;
+    height: 3px;
+    background-color: #F4CB0E;
+    margin: 25px 0 ;
+}
+.description{
+    line-height: 30px !important;
+    width: 500px;
+    color: white;
+    font-size: 17px;
 }
