@@ -4,7 +4,17 @@
     box-sizing: border-box;
 }
 .ballina{
-    background-color: gray;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images01.nicepage.com/2c/aa/2caae017a61202f87bc36fab57e85a63.png');
     width: 100%;
     height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.puntori{
+    position: absolute;
+    width: 348px;
+    height: auto;
+    top: 131px;
+    right: 400px;
 }
