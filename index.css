@@ -1,3 +1,55 @@
 *{
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title, .second-title, .description, .portofolio, .about-us{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ballina{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images01.nicepage.com/2c/aa/2caae017a61202f87bc36fab57e85a63.png');
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.puntori{
+    position: absolute;
+    width: 348px;
+    height: auto;
+    top: 131px;
+    right: 400px;
+}
+.tekstet{
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    user-select: none;
+    line-height: 70px;
+}
+.title{
+    text-transform: uppercase;
+    color: #F4CB0E;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+.second-title{
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.underline{
+    width: 100px;
+    height: 3px;
+    background-color: #F4CB0E;
+    margin: 25px 0 ;
+}
+.description{
+    line-height: 30px !important;
+    width: 500px;
+    color: white;
+    font-size: 17px;
 }
