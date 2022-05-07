@@ -90,6 +90,17 @@
     align-items: center !important;
     font-weight: 700;
 }
+.portofolio:hover{
+    background-color: #b7970c;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.about-us:hover{
+    background-color: white;
+    color: black;
+    transition: 0.1s;
+    cursor: pointer;
+}
 
 /* pjesa e vajrusit */
 
