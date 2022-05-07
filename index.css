@@ -13,18 +13,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .puntori{
-    position: absolute;
+    position: relative;
+    top: 67px;
     width: 348px;
     height: auto;
-    top: 131px;
-    right: 400px;
+}
+.main-img{
+    width: 20%;
 }
 .tekstet{
-    position: absolute;
-    left: 400px;
-    top: 150px;
+    width: 35%;
     user-select: none;
     line-height: 70px;
 }
@@ -52,6 +55,40 @@
     width: 500px;
     color: white;
     font-size: 17px;
+}
+.buttons{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.portofolio{
+    background-color: #F4CB0E;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    text-transform: uppercase;
+}
+.about-us{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    font-weight: 700;
 }
 
 /* pjesa e vajrusit */
