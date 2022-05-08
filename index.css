@@ -177,13 +177,25 @@
 
 .fotot{
     width: 100%;
-    height: 200px;
+    height: 500px;
     display: flex;
     flex-direction: row;
 }
 
 .foto1{
-    background:linear-gradient(0 0 0 0.3) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images01.nicepage.com/bf/37/bf37f8217e4b71feb26707d632c6845d.png');
+    width: 33%;
+    
+}
+
+.foto2{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images01.nicepage.com/45/78/457883519366bc77e9ffb4294b44f8df.png');
+    width: 33%;
+}
+
+.foto3{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images01.nicepage.com/35/97/35970472e6f88da51190947c84ba6f2a.png');
+    width: 33%;
 }
 
 
