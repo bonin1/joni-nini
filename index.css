@@ -173,6 +173,19 @@
 }
 
 
+/* pjesa e males */
+
+.fotot{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.foto1{
+    background:linear-gradient(0 0 0 0.3) ;
+}
+
 
 @media screen and (max-width:600px) {
     .puntori{
